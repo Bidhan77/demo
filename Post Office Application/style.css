@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.left {
+  background-color: #000;
+  height: 100vh;
+  width: 50vw;
+  padding: 1rem 1.5rem;
+}
+
+.left h1 {
+  color: #575A85;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.left p {
+  color: #B8BCCC;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.left img {
+  padding: 2rem 4rem;
+}
+
+.right {
+  background-color: #575a85;
+  height: 100vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.right h1 {
+  color: #B8BCCC;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.right h1 span {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#getStartedBtn {
+  width: 345px;
+  height: 67px;
+  border-radius: 10px;
+  border: 2px solid #B8BCCC;
+  color: #B8BCCC;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: #575A85;
+  cursor: pointer;
+}
+
+#getStartedBtn:hover {
+  background-color: #4a56f8;
+  border: 2px solid #e3e5ea;
+  color: #FFF;
+}
